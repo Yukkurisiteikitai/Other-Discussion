@@ -7,12 +7,6 @@ import random
 import Loadquestion
 import json
 
-# Hugging Faceのトークンを設定
-from huggingface_hub import login
-hf_token = "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"
-login(hf_token)
-os.environ["HF_TOKEN"] = hf_token
-
 # モデルの設定
 adpt_path = "./model/BadMargeModel"
 # repo_id = "elyza/Llama-3-ELYZA-JP-8B"
