@@ -21,31 +21,6 @@ save_path = "./testPrompts/Log.jsonl"
 
 themes_path = "./q.csv"
 themes_list = LoadSimgle(themes_path)
-# def PromptSave():
-#         global save_data
-#         if save_data == []:
-#             print("[NotingSaveData]")
-#         else:
-#             with open(save_path,"a",encoding="utf8")as file:
-#                 file.writelines(f"{line}\n" for line in save_data)
-#             print("[Success Save]")
-#             save_data = []
-
-
-# #渡す過程で出てくるじゃまなブロックを削除する
-# def deleteObjectStr(content:str):
-#     deletes = ["<",">","sys","SYS","INST","[","]","/","s>"]
-#     res = content
-#     for i in deletes:
-#         res = str(res).replace(i,"")
-#     return res
-
-# #list-text
-# def list_change_text(content:list):
-#     res = ""
-#     for i in content:
-#         res += i
-#     return res
 
 def print_do_time(start_time,option):
     end_time=time.time()
@@ -54,7 +29,6 @@ def print_do_time(start_time,option):
 
 
 #Auto Test Mode
-# sysPrompt = ["あなたはプロの議論者Aさんです。","あなたはプロの議論者Bさんです。"]
 themes = "コミュニケーションで必要なこと"
 
 

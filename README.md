@@ -1,4 +1,5 @@
 # Other-Discussion
+LM Studioでも使えるようにしまた。
 
 ## 引数
 |名前|型|説明|
