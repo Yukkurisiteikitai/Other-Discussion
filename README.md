@@ -1,6 +1,10 @@
 # Other-Discussion
 LM Studioでも使えるようにしまた。
 
+```
+pip install -r requirements.txt
+```
+
 ## 引数
 |名前|型|説明|
 |:--|:--:|--:|
